@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-<!-- 
+    <!-- 
 Preset colours palette (For your own sanity)
 Pouch Grey: (114,114,114)
 Silver: (173,178,178)
@@ -13,7 +13,7 @@ Apothecary white: (218,210,199)
 Apothecary red: (162, 54, 39)
  -->
 
-<!-- Emperor's Champion -->
+    <!-- Emperor's Champion -->
     <!-- Body -->
     <Core40k.DecorationPresetDef> <!-- MkVII -->
         <defName>BEWH_BT_ChampionBodyMkVII</defName>
@@ -111,7 +111,7 @@ Apothecary red: (162, 54, 39)
         </presetData>
     </Core40k.DecorationPresetDef>
 
-        <Core40k.DecorationPresetDef>
+    <Core40k.DecorationPresetDef>
         <defName>BEWH_BT_ChampionHeadMkX</defName> <!-- MkX -->
         <label>BT Emperor's Champion</label>
         <appliesTo>

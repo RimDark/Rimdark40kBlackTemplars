@@ -40,7 +40,6 @@
         </drawData>
         <shaderType>CutoutComplex</shaderType>
         <colourable>true</colourable>
-        <useMask>true</useMask>
         <colorAmount>2</colorAmount>
         <defaultColour>(222,222,222)</defaultColour>
         <defaultColourTwo>(240,176,29)</defaultColourTwo>

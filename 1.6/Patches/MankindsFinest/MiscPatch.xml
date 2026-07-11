@@ -15,20 +15,6 @@
         </value>
     </Operation>
 
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_Deco_MkVIIBlankTabard"]</xpath>
-        <value>
-            <useMask>true</useMask>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/Core40k.ExtraDecorationDef[defName="BEWH_Deco_MkXBlankTabard"]</xpath>
-        <value>
-            <useMask>true</useMask>
-        </value>
-    </Operation>
-
     <Operation Class="PatchOperationConditional">
         <xpath>Defs/ThingDef[defName="BEWH_AstartesPowerSword"]/modExtensions/li[@Class="Core40k.DefModExtension_AvailableDrawerTabDefs"]/tabDefs/li[text()="BEWH_WeaponAlternateBaseForms"]</xpath>
         <nomatch Class="PatchOperationAdd">
