@@ -1,1 +1,0 @@
-# Rimdark40kCustomChapterTemplate
