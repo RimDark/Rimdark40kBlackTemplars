@@ -90,6 +90,14 @@
         <shaderType>Cutout</shaderType>
         <flipable>true</flipable>
         <decorationType>BEWH_DecoCategory_Pseals</decorationType>
+        <pawnStatOffsets>
+            <MentalBreakThreshold>-0.01</MentalBreakThreshold>
+        </pawnStatOffsets>
+        <cost>
+            <Cloth>10</Cloth>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </cost>
+        <workAmount>500</workAmount>
     </Core40k.ExtraDecorationDef>
 
     <!-- Relics -->
@@ -136,6 +144,21 @@
         <colourable>true</colourable>
         <flipable>true</flipable>
         <decorationType>BEWH_DecoCategory_Relics</decorationType>
+        <pawnStatOffsets>
+            <MeleeHitChance>2</MeleeHitChance>
+        </pawnStatOffsets>
+        <pawnStatFactors>
+            <MeleeDamageFactor>1.08</MeleeDamageFactor>
+        </pawnStatFactors>
+        <incompatibleDecorations>
+            <li>BEWH_DecoRelic_1</li>
+            <li>BEWH_DecoRelic_2</li>
+        </incompatibleDecorations>
+        <cost>
+            <Plasteel>10</Plasteel>
+            <ComponentSpacer>1</ComponentSpacer>
+        </cost>
+        <workAmount>900</workAmount>
     </Core40k.ExtraDecorationDef>
 
     <!-- Bling-bling -->
@@ -175,6 +198,14 @@
         <defaultColour>(240,176,29)</defaultColour>
         <colourable>true</colourable>
         <decorationType>BEWH_DecoCategory_Trinkets</decorationType>
+        <pawnStatFactors>
+            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0.60</CertaintyLossFactor>
+        </pawnStatFactors>
+        <cost>
+            <Plasteel>10</Plasteel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </cost>
+        <workAmount>900</workAmount>
     </Core40k.ExtraDecorationDef>
 
 </Defs>
