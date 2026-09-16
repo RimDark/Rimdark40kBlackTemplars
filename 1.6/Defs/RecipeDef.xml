@@ -1,32 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <!-- Below are the recipes for inserting Ascendance vials with black templar gene-seed vials. You can edit the skill requirements and some of the other recipeDef field -->
-    <!-- Firstborn -->
-    <RecipeDef ParentName="BEWH_FirstbornVialInsertion">
-        <defName>BEWH_MakeFirstbornChapterBlackTemplar</defName>
-        <label>make Black Templar firstborn</label>
-        <modExtensions>
-            <li Class="Genes40k.DefModExtension_GeneseedVialRecipe">
-                <geneseedVial>BEWH_GeneseedVialFirstborn</geneseedVial>
-                <geneFromMaterial>BEWH_ChapterBlackTemplars</geneFromMaterial>
-            </li>
-        </modExtensions>
-    </RecipeDef>
-
-    <!-- Primaris -->
-    <RecipeDef ParentName="BEWH_PrimarisVialInsertion">
-        <defName>BEWH_MakePrimarisChapterBlackTemplar</defName>
-        <label>make Black Templar primaris</label>
-        <modExtensions>
-            <li Class="Genes40k.DefModExtension_GeneseedVialRecipe">
-                <geneseedVial>BEWH_GeneseedVialPrimaris</geneseedVial>
-                <geneFromMaterial>BEWH_ChapterBlackTemplars</geneFromMaterial>
-            </li>
-        </modExtensions>
-    </RecipeDef>
-
-
     <!-- Legion Material Creation -->
     <RecipeDef ParentName="BEWH_LegionMaterialCreationFromOther">
         <defName>BEWH_MakeBlackTemplarLegionMaterial</defName>
@@ -40,18 +14,6 @@
         <modExtensions>
             <li Class="Genes40k.DefModExtension_LegionMaterialCreation">
                 <requiredLegionMaterial>BEWH_ChapterMaterialVII</requiredLegionMaterial>
-            </li>
-        </modExtensions>
-    </RecipeDef>
-
-
-    <!-- Black Templar Legion -->
-    <RecipeDef ParentName="BEWH_LegionlessToLegion">
-        <defName>BEWH_IntroduceMaterialChapterBlackTemplar</defName>
-        <label>implant Black Templar material</label>
-        <modExtensions>
-            <li Class="Genes40k.DefModExtension_LegionMaterialCreation">
-                <requiredLegionMaterial>BEWH_ChapterMaterialBlackTemplar</requiredLegionMaterial>
             </li>
         </modExtensions>
     </RecipeDef>
