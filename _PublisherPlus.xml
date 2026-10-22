@@ -2,5 +2,7 @@
 <Configuration>
   <Excluded>
     <exclude>.git</exclude>
+    <exclude>CLAUDE.md</exclude>
+    <exclude>.claude</exclude>
   </Excluded>
 </Configuration>
